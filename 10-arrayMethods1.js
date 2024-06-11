@@ -110,7 +110,7 @@ console.log( vowels.splice() );  // O/P = []   (giving empty array)
 
 // const evenNumber3 = [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24];
 
-// If we  want to delete  only 4 then we have to pass index of 4 and we r removing only one value so have pass 1 aslo
+// If we  want to delete  only 4 then we have to pass index of 4 and we r removing only one value so have to pass 1 aslo
 
 console.log( evenNumber3.splice(2, 1));   // O/P = 4   remove 4 from array
 
@@ -128,15 +128,15 @@ console.log(evenNumber3);   // O/P = [0, 2, 6, 16, 18, 20, 22, 24]
 
 // ------------------------------>>>>>>>>>>>>>>>>>>>>>>>>>.
 
-// IF WE WANT TO MORE THAN ONE VALUE IN THE MIDDLE OF THE ARRAY----->>>>>>>>>>>   MODIFY THE original ARRAY ------->>>>>>
+// IF WE WANT TO ADD MORE THAN ONE VALUE IN THE MIDDLE OF THE ARRAY      ----->>>>>>>>>>>   MODIFY THE original ARRAY ------->>>>>>
 
 const normalArr = [4, 5, 6, 7, 8];
 
-// Adding  11,9   values to the array from 5 / after 4(index 0)
-
-// here (1, 2,    11 ,9) means from index 1 , (11 and 9) will add from index 1  and 2 represents from index 1 means from 5 how many values will remove in this case ( 5 and 6 will remove). 
+// Adding  11, 9   values to the array from 5 / after 4(index 0)...  ( in the place of val 5 and 6,,  11 and 9 will add.. modify the original array.) 
 
 normalArr.splice(1, 2,     11, 9);
+
+// here (1, 2,   11 ,9) means from index 1,  (11 and 9) will add from index 1  and 2 represents from index 1 means from 5 how many values will remove. Here in this case ( 5 and 6 will remove). 
 
 console.log(normalArr);   // o/p =  [4, 11, 9, 7, 8]
 
