@@ -1,7 +1,7 @@
 // IN VARIABLE WE COMPARE THE ACTUAL VALUE OF STRING OR NUMBER 
 
 
-// BUT IN OBJECT WE COMPARE THE locationES OF THE OBJECTS
+// BUT IN OBJECT WE COMPARE THE locations OF THE OBJECTS
 
 // firstName === firstName2; O/P= true coz both variables are same value
 
@@ -80,3 +80,15 @@ console.log(newUser);
 console.log(newUser.location.pinCode);   // O/P = 736170
 console.log(newUser["location"]["vill"]);   // O/P = cob
 
+
+// -------------------------------------------------------------------------------------
+
+
+// memory address--->>>
+
+//     @67 - "undefined"
+//     @71 - "null"
+//     @73 - "true"
+//     @75 - "false"
+//     @77 - ""  (empty string)
+    
